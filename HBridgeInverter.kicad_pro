@@ -266,13 +266,7 @@
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": {
-      "Net-(Q2-G)": "Clock1",
-      "Net-(Q4-G)": "Clock2",
-      "Net-(Q7-C)": "Clock2",
-      "Net-(R11-Pad1)": "Clock1",
-      "unconnected-(R13-Pad2)": "Clock1"
-    },
+    "netclass_assignments": null,
     "netclass_patterns": []
   },
   "pcbnew": {

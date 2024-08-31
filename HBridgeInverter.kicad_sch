@@ -2209,6 +2209,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 78.74) (xy 81.28 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcdd9daa-1da9-421a-94d0-124c0e6349b8")
+	)
+	(wire
+		(pts
 			(xy 139.7 57.15) (xy 152.4 57.15)
 		)
 		(stroke
@@ -2397,91 +2407,91 @@
 		)
 		(uuid "fce7b5a7-959f-4367-a27c-8872e9a5a23c")
 	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 210.82 106.68 270)
+	(global_label "Clock2"
+		(shape input)
+		(at 210.82 106.68 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left)
 		)
-		(uuid "1d5402fa-c15f-43ec-ae52-f0adf7f71301")
-		(property "Netclass" "Clock2"
-			(at 218.186 104.902 0)
+		(uuid "3e0b9790-b3df-48ce-9027-d48f99a92239")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 220.2156 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Clock2"
+		(shape input)
+		(at 96.52 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "567aeb85-264e-4436-8721-b9a70e479013")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.9156 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Clock1"
+		(shape input)
+		(at 81.28 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8c855c6a-44a9-4e23-a2d1-2a3d4202fc3c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.8844 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 119.38 106.68 90)
+	(global_label "Clock1"
+		(shape input)
+		(at 119.38 106.68 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "67039f9b-6228-4d6e-a1cd-a7d691209cc2")
-		(property "Netclass" "Clock1"
-			(at 112.268 104.902 0)
+		(uuid "b11fa366-641c-4fd2-b779-a7a3b0a39b4c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 109.9844 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
-				(justify left)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 81.28 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "adf07c57-58cf-40db-b886-c93ee11f969f")
-		(property "Netclass" "Clock1"
-			(at 78.232 80.772 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 96.52 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c5d3174f-4aad-469e-9b56-990433b1569b")
-		(property "Netclass" "Clock2"
-			(at 93.472 80.772 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
+				(justify right)
+				(hide yes)
 			)
 		)
 	)
@@ -4505,28 +4515,28 @@
 			)
 		)
 		(pin "4"
-			(uuid "bf331e05-0cf7-4c9c-ba7a-95c46ad95651")
+			(uuid "bf331e05-0cf7-4c9c-ba7a-95c46ad95652")
 		)
 		(pin "3"
-			(uuid "75282dbc-c1e7-485f-b16a-425f190824f5")
+			(uuid "75282dbc-c1e7-485f-b16a-425f190824f6")
 		)
 		(pin "2"
-			(uuid "93dc747c-1b30-4577-8072-bf57cdae9797")
+			(uuid "93dc747c-1b30-4577-8072-bf57cdae9798")
 		)
 		(pin "8"
-			(uuid "e457134c-cfb1-4486-ba1d-fea98baf7ddd")
+			(uuid "e457134c-cfb1-4486-ba1d-fea98baf7dde")
 		)
 		(pin "1"
-			(uuid "c802ad4b-bbd5-46ad-9dd2-b9b4ddd64c08")
+			(uuid "c802ad4b-bbd5-46ad-9dd2-b9b4ddd64c09")
 		)
 		(pin "5"
-			(uuid "cb775e36-854b-4a63-b2dd-8a0c46ada543")
+			(uuid "cb775e36-854b-4a63-b2dd-8a0c46ada544")
 		)
 		(pin "6"
-			(uuid "c5e3e906-781e-46d5-9973-f1140fe68baf")
+			(uuid "c5e3e906-781e-46d5-9973-f1140fe68bb0")
 		)
 		(pin "7"
-			(uuid "7e6e4cc3-0d4e-47f8-a8e9-bcf36064aa66")
+			(uuid "7e6e4cc3-0d4e-47f8-a8e9-bcf36064aa67")
 		)
 		(instances
 			(project ""
